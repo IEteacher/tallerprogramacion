@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Estudiantil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #253dac 0%, #4a464d 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .contact-item:hover {
+            transform: translateX(5px);
+            background: #e9ecef;
+        }
+
+        .contact-icon {
+            font-size: 1.5em;
+            margin-right: 15px;
+            color: #667eea;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Iván Estrada</h1>
+            <p class="subtitle">Ingeniero de Sistemas</p>
+        </header>
+
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>
+                ¡Hola! Soy Iván, estudiante de tercer año de Ingeniería en Sistemas. Me apasiona la tecnología y el desarrollo de software, especialmente el diseño web y la programación.
+            </p>
+            <p>
+                Actualmente estoy enfocada en aprender desarrollo frontend y backend, con experiencia en HTML, CSS, JavaScript y Python. Me encanta resolver problemas complejos y crear soluciones innovadoras que mejoren la vida de las personas.
+            </p>
+            <p>
+                En mi tiempo libre disfruto participar en hackathons, contribuir a proyectos de código abierto y mantenerme actualizada con las últimas tendencias tecnológicas.
+            </p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <strong>Email:</strong><br>
+                        <a href="jefe.computacion.antofagasta@ceduc.cl">jefe.computacion.antofagasta@ceduc.cl</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">💼</span>
+                    <div>
+                        <strong>LinkedIn:</strong><br>
+                        <a href="#" target="_blank">linkedin.com/in/ivanestrada</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">💻</span>
+                    <div>
+                        <strong>GitHub:</strong><br>
+                        <a href="#" target="_blank">github.com/IEteacher</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <div>
+                        <strong>Teléfono:</strong><br>
+                        +56 9 74736015
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 María González. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
